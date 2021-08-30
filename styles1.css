@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+.navigation{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    text-align: start;
+   padding: 25px 0px 10px 16px;
+   padding-left: 600px ;
+}
+.container-centre{  
+    max-width: 1000px;
+    margin: 30px auto 10px;
+    background-color: #9CA3AF
+    ;
+    height: 500px;
+    display: block;
+    border-radius: 1rem;
+}
+.content-input{
+    display: inline-block;
+    height: 150px;
+    padding: 20px;
+}
+.content-output{
+    display: inline-block;
+    height: 150px;
+    padding: 20px;
+
+}
+.content-translate{
+    height: 150px;
+    margin-left: 420px;
+}
+.pooh-image{
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.box{
+    font-family: 'EB Garamond', serif;
+    font-size: large;   
+   margin-top: 20px;
+   padding: 10px;
+   padding-left: 15px;
+   border-radius: 1rem;
+   border: 2px solid black;
+   width: 580px;
+    height: 110px;
+}
+
+.btnTranslate{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0px;
+    height: 40px;
+    padding: 5px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: black;
+    color: #ffffff;
+
+}
+.footer{
+    background-color: black;
+    color: grey;
+}
+.footer-text{
+    max-width: 900px;
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+    margin: auto;
+    line-height: 2rem;
+    margin-top: 34px;
+}
