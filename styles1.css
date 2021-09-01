@@ -12,24 +12,39 @@ body{
     height: 3rem;
     background-color: black;
     color: white;
-    text-align: start;
+    text-align: left;
    padding: 25px 0px 10px 16px;
    padding-left: 600px ;
+}
+@media screen and (max-width: 600px){
+    .navigation{
+        text-align: left;
+        padding-left: 10px;
+    }
 }
 .container-centre{  
     max-width: 1000px;
     margin: 30px auto 10px;
-    background-color: #9CA3AF
-    ;
+    background-color: #9CA3AF ;
     height: 500px;
     display: block;
     border-radius: 1rem;
+}
+@media screen and (max-width: 600px) {
+    .container-centre{
+        height: 100vh;
+        justify-content: center;
+        margin: 0px;
+    }
+    
 }
 .content-input{
     display: inline-block;
     height: 150px;
     padding: 20px;
 }
+
+
 .content-output{
     display: inline-block;
     height: 150px;
@@ -44,6 +59,7 @@ body{
     margin-right: 50px;
     margin-top: 20px;
     margin-left: 20px;
+    height: auto;
 }
 
 .box{
@@ -70,7 +86,11 @@ body{
     border-radius: 1rem;
     background-color: black;
     color: #ffffff;
-
+}
+@media screen and (max-width: 800px){
+    .content-translate{
+      margin-left: 20px; 
+    margin-top: 20px; }
 }
 .footer{
     background-color: black;
@@ -78,6 +98,11 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+@media screen and (max-width: 600px){
+    .footer{
+        max-width: 100%;
+        position: relative;    }
 }
 .footer-text{
     max-width: 900px;
